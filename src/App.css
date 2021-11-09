@@ -20,13 +20,13 @@ body {
 
 @media (orientation: landscape) {
   body {
-    font-size: 20vh;
+    font-size: 24vh;
   }
 }
 .blob {
   border-radius: 50%;
   padding: 0.3em 0;
-  max-width: 5em;
+  max-width: 9em;
   line-height: 1em;
   background-color: #bdd7ff;
   transform: rotate(5deg);
