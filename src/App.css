@@ -11,10 +11,12 @@ body {
   height: 100vh;
   cursor: pointer;
   max-height:100vh;
+  height:100vh;
   overflow:hidden;
   text-align: center;
   font-size: clamp(2em, 18vw, 12em);
 }
+.App{max-height:100vh; overflow:hidden;}
 
 @media (orientation: landscape) {
   body {
