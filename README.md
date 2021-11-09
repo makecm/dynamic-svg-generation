@@ -27,9 +27,7 @@ When importing into Make be sure to import from the `/build` folder.
 
 The following `data` inputs are available as well.
 
-- `headline`: string
-- `backgroundImage`: string (public URL)
-- `showLogos`: boolean
+- `text`: string
 
 ## Support
 

@@ -1,0 +1,2 @@
+@import url(https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap);body{font-family:"Mochiy Pop P One",sans-serif;background-color:transparent;color:#234;display:grid;place-items:center;height:100vh;cursor:pointer;text-align:center;font-size:clamp(2em,18vw,12em)}@media (orientation:landscape){body{font-size:clamp(2em,20vh,12em)}}.App{border-radius:50%;padding:.3em 0;max-width:5em;line-height:1em;background-color:#bdd7ff;transform:rotate(5deg)}
+/*# sourceMappingURL=main.e45a1f42.chunk.css.map */

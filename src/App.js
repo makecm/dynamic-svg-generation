@@ -1,36 +1,20 @@
 import PropTypes from "prop-types";
 import './App.css';
-import Shapes from './components/shapes/shapes'
-import Logos from './components/logos/logos'
-import {ReactComponent as MakeLogo} from './logo.svg'
-import {ReactComponent as ReactLogo} from './react-logo.svg'
 
-function App({ headline, showLogos, backgroundImage }) {
+function App({ text }) {
   return (
-    <div className="App" style={{ backgroundImage: `url('${backgroundImage}')` }}>
-      {showLogos && (
-        <Logos logoOne={<MakeLogo />} logoTwo={<ReactLogo />} />
-      )}
-
-      <h1>{headline}</h1>
-
-      <div className="shape-container">
-        <Shapes />
-      </div>
-    </div>
+    <div className="App"> {text} </div>
   );
 }
 
-App.propTypes = {
-  headline: PropTypes.string,
-  showLogos: PropTypes.string,
-  backgroundImage: PropTypes.string,
-}
-
-App.defaultProps = {
-  headline: 'Hello World',
-  showLogos: true,
-  backgroundImage: '',
-}
-
+App.propTypes = { text: PropTypes.string,}
+App.defaultProps = { text: 'Your Custom SVG',}
 export default App;
+
+
+// some quick messing around
+
+function rMe(min, max) { return Math.floor(Math.random() * (max - min + 1) + min);}
+let blob = document.querySelector("div");
+function randomBlob() { blob.setAttribute("style", `transform:rotate(${rMe(-9, 9)}deg);` ) }
+randomBlob();
