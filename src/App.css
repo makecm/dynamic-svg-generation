@@ -14,13 +14,13 @@ body {
   height:100vh;
   overflow:hidden;
   text-align: center;
-  font-size: clamp(2em, 18vw, 12em);
+  font-size: 18vw;
 }
 .App{max-height:100vh; overflow:hidden;}
 
 @media (orientation: landscape) {
   body {
-    font-size: clamp(2em, 20vh, 12em);
+    font-size: 20vh;
   }
 }
 .blob {
