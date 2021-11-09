@@ -3,7 +3,7 @@ import './App.css';
 
 function App({ text }) {
   return (
-    <div className="App"> {text} </div>
+    <div className="App"> <div className="blob">{text} </div></div>
   );
 }
 

@@ -8,6 +8,8 @@ body {
   place-items: center;
   height: 100vh;
   cursor: pointer;
+  max-height:100vh;
+  overflow:hidden;
   text-align: center;
   font-size: clamp(2em, 18vw, 12em);
 }
@@ -17,7 +19,7 @@ body {
     font-size: clamp(2em, 20vh, 12em);
   }
 }
-.App {
+.blob {
   border-radius: 50%;
   padding: 0.3em 0;
   max-width: 5em;
